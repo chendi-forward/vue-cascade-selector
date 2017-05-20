@@ -1,8 +1,8 @@
 # vue-cascade-selector
 Cascade selector components based on vue.js
 
-## Example
-暂时还没有什么信息
+## Examples
+[Examples Page](/cuihovah/vue-cascade-selector/tree/master/examples)
 
 ## Instllation
 	npm install vue-cascade-selector
