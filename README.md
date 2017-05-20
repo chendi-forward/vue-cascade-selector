@@ -11,7 +11,7 @@ Cascade selector components based on vue.js
 直接引用就行
 
 ## Options
-	data: {
+```data: {
 	    "options": {
 	      "level-1-1": {
 	          "key": "level-1", 
@@ -221,7 +221,7 @@ Cascade selector components based on vue.js
 	          }
 	      },
 	    },
-	  }
+}```
 
 ## contributing
 * cuihovah@gmail.com
