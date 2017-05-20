@@ -36,7 +36,7 @@
 		data() {
             return {
 				default: {},
-				data: {},
+				options: {},
 				showSelector: {},
 				nameMap: {}
             }
