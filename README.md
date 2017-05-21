@@ -8,12 +8,12 @@ Cascade selector components based on vue.js
 	npm install vue-cascade-selector
 
 ## Usage
-```
+```xml
 <template>
    <selector :init="selectorConstructor" :handle="selectorHandle"></selector>
 </template>
 ```
-```
+```javascript
 import Vue from 'vue';
 import Selector from 'vue-cascade-selector';
 export default{
@@ -47,7 +47,7 @@ export default{
 ```
 
 ## Options
-```
+```json
 data: {
     "options": {
       "level-1-1": {
