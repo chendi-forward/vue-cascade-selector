@@ -8,7 +8,43 @@ Cascade selector components based on vue.js
 	npm install vue-cascade-selector
 
 ## Usage
-直接引用就行
+```
+<template>
+   <selector :init="selectorConstructor" :handle="selectorHandle"></selector>
+</template>
+```
+```
+import Vue from 'vue';
+import Selector from 'vue-cascade-selector';
+export default{
+    components: {
+    Selector,
+    },
+    methods: {
+    selectorConstructor(that){
+
+      that.options = data.options;
+      
+      that.showSelector = {
+        'level-1': {
+          'level-1-1': that.options['level-1-1'],
+          'level-1-2': that.options['level-1-2'],
+          'level-1-3': that.options['level-1-3'],
+        }
+      };
+      
+      that.nameMap = {
+        'level-1': 'level 1',
+        'level-2': 'level 2',
+        'level-3': 'level 3'
+      };
+    },
+    selectorHandle(id){
+      console.log(id);
+    }
+  }
+}
+```
 
 ## Options
 ```
