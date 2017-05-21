@@ -2,7 +2,7 @@
 Cascade selector components based on vue.js
 
 ## Examples
-[Examples Page](/cuihovah/vue-cascade-selector/tree/master/examples)
+[Examples Page](https://github.com/cuihovah/vue-cascade-selector/tree/master/examples)
 
 ## Instllation
 	npm install vue-cascade-selector
@@ -227,7 +227,7 @@ data: {
                   "name": "level-3-2",
                   "id": "2"
                 },
-                level-3-3": {
+                "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
                   "id": "3"
