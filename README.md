@@ -18,30 +18,30 @@ import Vue from 'vue';
 import Selector from 'vue-cascade-selector';
 export default{
     components: {
-    Selector,
+      Selector,
     },
     methods: {
-    selectorConstructor(that){
+      selectorConstructor(that){
 
-      that.options = data.options;
-      
-      that.showSelector = {
-        'level-1': {
-          'level-1-1': that.options['level-1-1'],
-          'level-1-2': that.options['level-1-2'],
-          'level-1-3': that.options['level-1-3'],
-        }
-      };
-      
-      that.nameMap = {
-        'level-1': 'level 1',
-        'level-2': 'level 2',
-        'level-3': 'level 3'
-      };
-    },
-    selectorHandle(id){
-      console.log(id);
-    }
+        that.options = data.options;
+        
+        that.showSelector = {
+          'level-1': {
+            'level-1-1': that.options['level-1-1'],
+            'level-1-2': that.options['level-1-2'],
+            'level-1-3': that.options['level-1-3'],
+          }
+        };
+        
+        that.nameMap = {
+          'level-1': 'level 1',
+          'level-2': 'level 2',
+          'level-3': 'level 3'
+        };
+      },
+      selectorHandle(id){
+        console.log(id);
+      }
   }
 }
 ```
@@ -61,17 +61,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -82,17 +82,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -103,17 +103,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -130,17 +130,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -151,17 +151,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -172,17 +172,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -199,17 +199,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -220,17 +220,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
@@ -241,17 +241,17 @@ data: {
                 "level-3-1": {
                   "key": "level-3",
                   "name": "level-3-1",
-                  "id": "1
+                  "id": "1"
                 },
                 "level-3-2": {
                   "key": "level-3",
                   "name": "level-3-2",
-                  "id": "2
+                  "id": "2"
                 },
                 "level-3-3": {
                   "key": "level-3",
                   "name": "level-3-3",
-                  "id": "3
+                  "id": "3"
                 }
               }
             },
