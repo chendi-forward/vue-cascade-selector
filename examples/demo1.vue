@@ -6,7 +6,7 @@
   import Vue from 'vue';
   import Selector from 'vue-cascade-selector';
 
-  data: {
+  var data = {
       "options": {
         "level-1-1": {
             "key": "level-1", 

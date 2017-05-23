@@ -4,7 +4,7 @@ Cascade selector components based on vue.js
 ## Examples
 [Examples Page](https://github.com/cuihovah/vue-cascade-selector/tree/master/examples)
 
-## Instllation
+## Installation
 	npm install vue-cascade-selector
 
 ## Usage
