@@ -2,6 +2,7 @@
 	<div class="tiku-selector">
 		<div v-for="(item, itemIndex) in showSelector" 
 				class="tiku-selector-item" 
+				v-show="hideItem.index(itemIndex) < 0"
 				:data-order="itemIndex">
 			<span class="tiku-selector-name">
 				{{ nameMap[itemIndex] }}
@@ -35,6 +36,7 @@
 		},
 		data() {
             return {
+				hideItem: [],
 				default: {},
 				options: {},
 				showSelector: {},
