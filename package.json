@@ -1,6 +1,6 @@
 {
   "name": "vue-cascade-selector",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "a cascade selector based vue.js",
   "main": "index.js",
   "scripts": {

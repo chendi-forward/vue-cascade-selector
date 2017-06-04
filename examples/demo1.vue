@@ -241,7 +241,7 @@
             'level-3': 'level 3'
           };
         },
-        selectorHandle(id){
+        selectorHandle(key, value, id){
           console.log(id);
         }
     }

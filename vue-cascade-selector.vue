@@ -82,7 +82,7 @@
 				this.$set(this.showSelector[key][value], 'current', true);
 
 				if(id) {
-					this.handle(id);
+					this.handle(key, value, id);
 				}
 			}
 		}
